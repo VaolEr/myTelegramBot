@@ -15,6 +15,7 @@
 	<description>Telegram bot as a pet project</description>
 	<properties>
 		<java.version>11</java.version>
+		<telegrambots.version>5.1.1</telegrambots.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -32,6 +33,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!--		Telegram Bot API-->
+		<dependency>
+			<groupId>org.telegram</groupId>
+			<artifactId>telegrambots</artifactId>
+			<version>${telegrambots.version}</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
