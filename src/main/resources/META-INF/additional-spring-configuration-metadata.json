@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "app.tokens.echoBotToken",
+      "type": "java.lang.String",
+      "description": "Description for app.tokens.echoBotToken."
+  }
+] }
