@@ -1,4 +1,4 @@
-package ru.VaolEr.myTelegramBot.bot.command;
+package ru.VaolEr.myTelegramBot.botapi.command;
 
 public enum BotCommandName {
     NOT_EXIST(""),

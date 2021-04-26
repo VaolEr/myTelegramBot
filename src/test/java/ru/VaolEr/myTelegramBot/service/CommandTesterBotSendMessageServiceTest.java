@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
-import ru.VaolEr.myTelegramBot.bot.CommandTesterBot;
+import ru.VaolEr.myTelegramBot.botapi.CommandTesterBot;
 import ru.VaolEr.myTelegramBot.service.impl.CommandTesterBotSendMessageServiceImpl;
 
 @DisplayName("Unit-level testing for CommandTesterBotSendMessageService")

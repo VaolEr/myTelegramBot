@@ -2,7 +2,7 @@ package ru.VaolEr.myTelegramBot.service.bot;
 
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.objects.Update;
-import ru.VaolEr.myTelegramBot.bot.command.BotCommandContainer;
+import ru.VaolEr.myTelegramBot.botapi.command.BotCommandContainer;
 import ru.VaolEr.myTelegramBot.service.impl.TestPollingBotSendMessageServiceImpl;
 
 public class TestPollingBot extends TelegramLongPollingBot {

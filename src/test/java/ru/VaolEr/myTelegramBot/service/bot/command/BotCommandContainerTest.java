@@ -5,10 +5,10 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
-import ru.VaolEr.myTelegramBot.bot.command.BotCommand;
-import ru.VaolEr.myTelegramBot.bot.command.BotCommandContainer;
-import ru.VaolEr.myTelegramBot.bot.command.BotCommandName;
-import ru.VaolEr.myTelegramBot.bot.command.UnknownCommand;
+import ru.VaolEr.myTelegramBot.botapi.command.BotCommand;
+import ru.VaolEr.myTelegramBot.botapi.command.BotCommandContainer;
+import ru.VaolEr.myTelegramBot.botapi.command.BotCommandName;
+import ru.VaolEr.myTelegramBot.botapi.command.UnknownCommand;
 import ru.VaolEr.myTelegramBot.service.BotSendMessageService;
 
 import java.util.Arrays;

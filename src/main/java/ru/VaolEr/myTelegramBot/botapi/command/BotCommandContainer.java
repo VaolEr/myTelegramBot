@@ -1,9 +1,9 @@
-package ru.VaolEr.myTelegramBot.bot.command;
+package ru.VaolEr.myTelegramBot.botapi.command;
 
 import com.google.common.collect.ImmutableMap;
 import ru.VaolEr.myTelegramBot.service.BotSendMessageService;
 
-import static ru.VaolEr.myTelegramBot.bot.command.BotCommandName.*;
+import static ru.VaolEr.myTelegramBot.botapi.command.BotCommandName.*;
 
 public class BotCommandContainer {
 

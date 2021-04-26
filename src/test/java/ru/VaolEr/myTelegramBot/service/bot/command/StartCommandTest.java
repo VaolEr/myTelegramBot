@@ -1,10 +1,10 @@
 package ru.VaolEr.myTelegramBot.service.bot.command;
 
 import org.junit.jupiter.api.DisplayName;
-import ru.VaolEr.myTelegramBot.bot.command.BotCommand;
-import ru.VaolEr.myTelegramBot.bot.command.StartCommand;
+import ru.VaolEr.myTelegramBot.botapi.command.BotCommand;
+import ru.VaolEr.myTelegramBot.botapi.command.StartCommand;
 
-import static ru.VaolEr.myTelegramBot.bot.command.BotCommandName.START;
+import static ru.VaolEr.myTelegramBot.botapi.command.BotCommandName.START;
 
 @DisplayName("Unit-level testing for StartCommand")
 public class StartCommandTest extends AbstractBotCommandTest{

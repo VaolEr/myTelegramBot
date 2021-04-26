@@ -1,10 +1,10 @@
 package ru.VaolEr.myTelegramBot.service.bot.command;
 
 import org.junit.jupiter.api.DisplayName;
-import ru.VaolEr.myTelegramBot.bot.command.BotCommand;
-import ru.VaolEr.myTelegramBot.bot.command.HelpCommand;
+import ru.VaolEr.myTelegramBot.botapi.command.BotCommand;
+import ru.VaolEr.myTelegramBot.botapi.command.HelpCommand;
 
-import static ru.VaolEr.myTelegramBot.bot.command.BotCommandName.HELP;
+import static ru.VaolEr.myTelegramBot.botapi.command.BotCommandName.HELP;
 
 @DisplayName("Unit-level testing for HelpCommand")
 public class HelpCommandTest extends AbstractBotCommandTest {

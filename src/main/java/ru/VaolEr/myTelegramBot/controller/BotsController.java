@@ -7,9 +7,9 @@ import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
-import ru.VaolEr.myTelegramBot.bot.CommandTesterBot;
-import ru.VaolEr.myTelegramBot.bot.EchoBot;
-import ru.VaolEr.myTelegramBot.bot.PaymentYookassaWebhookBot;
+import ru.VaolEr.myTelegramBot.botapi.CommandTesterBot;
+import ru.VaolEr.myTelegramBot.botapi.EchoBot;
+import ru.VaolEr.myTelegramBot.botapi.PaymentYookassaWebhookBot;
 
 @Component
 @RequiredArgsConstructor

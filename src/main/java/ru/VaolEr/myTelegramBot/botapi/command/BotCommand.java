@@ -1,4 +1,4 @@
-package ru.VaolEr.myTelegramBot.bot.command;
+package ru.VaolEr.myTelegramBot.botapi.command;
 
 import org.telegram.telegrambots.meta.api.objects.Update;
 

@@ -1,4 +1,4 @@
-package ru.VaolEr.myTelegramBot.bot;
+package ru.VaolEr.myTelegramBot.botapi;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

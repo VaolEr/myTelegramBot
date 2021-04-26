@@ -1,13 +1,13 @@
-package ru.VaolEr.myTelegramBot.bot;
+package ru.VaolEr.myTelegramBot.botapi;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.objects.Update;
-import ru.VaolEr.myTelegramBot.bot.command.BotCommandContainer;
+import ru.VaolEr.myTelegramBot.botapi.command.BotCommandContainer;
 import ru.VaolEr.myTelegramBot.service.impl.CommandTesterBotSendMessageServiceImpl;
 
-import static ru.VaolEr.myTelegramBot.bot.command.BotCommandName.NOT_EXIST;
+import static ru.VaolEr.myTelegramBot.botapi.command.BotCommandName.NOT_EXIST;
 
 @Component
 public class CommandTesterBot extends TelegramLongPollingBot {
