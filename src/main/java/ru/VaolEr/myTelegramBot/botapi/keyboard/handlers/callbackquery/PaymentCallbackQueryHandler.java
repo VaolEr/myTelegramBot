@@ -16,10 +16,9 @@ public class PaymentCallbackQueryHandler implements CallbackQueryHandler {
     @Override
     public SendMessage handleCallbackQuery(CallbackQuery callbackQuery) {
 
-        //final long chatId = callbackQuery.getMessage().getChatId();
-        final String chat = callbackQuery.getMessage().getChatId().toString();
+        final String chatID = callbackQuery.getMessage().getChatId().toString();
 
-        return messageService.getReplyMessage(chat, "reply.query.payment");
+        return messageService.getReplyMessage(chatID, "reply.query.payment");
     }
 
     @Override

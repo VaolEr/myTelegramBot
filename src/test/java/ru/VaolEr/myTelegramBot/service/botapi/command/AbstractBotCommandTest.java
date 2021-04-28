@@ -1,4 +1,4 @@
-package ru.VaolEr.myTelegramBot.service.bot.command;
+package ru.VaolEr.myTelegramBot.service.botapi.command;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
@@ -8,7 +8,7 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import ru.VaolEr.myTelegramBot.botapi.command.BotCommand;
 import ru.VaolEr.myTelegramBot.service.BotSendMessageService;
-import ru.VaolEr.myTelegramBot.service.bot.TestPollingBot;
+import ru.VaolEr.myTelegramBot.service.botapi.TestPollingBot;
 import ru.VaolEr.myTelegramBot.service.impl.TestPollingBotSendMessageServiceImpl;
 
 /**

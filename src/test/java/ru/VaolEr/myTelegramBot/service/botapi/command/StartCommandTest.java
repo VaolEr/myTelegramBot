@@ -1,4 +1,4 @@
-package ru.VaolEr.myTelegramBot.service.bot.command;
+package ru.VaolEr.myTelegramBot.service.botapi.command;
 
 import org.junit.jupiter.api.DisplayName;
 import ru.VaolEr.myTelegramBot.botapi.command.BotCommand;

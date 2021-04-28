@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import ru.VaolEr.myTelegramBot.service.BotSendMessageService;
-import ru.VaolEr.myTelegramBot.service.bot.TestPollingBot;
+import ru.VaolEr.myTelegramBot.service.botapi.TestPollingBot;
 
 @RequiredArgsConstructor
 public class TestPollingBotSendMessageServiceImpl implements BotSendMessageService {

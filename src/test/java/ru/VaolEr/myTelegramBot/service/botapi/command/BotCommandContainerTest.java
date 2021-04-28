@@ -1,4 +1,4 @@
-package ru.VaolEr.myTelegramBot.service.bot.command;
+package ru.VaolEr.myTelegramBot.service.botapi.command;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

@@ -20,13 +20,8 @@ public class CallbackQueryParser {
     private final ReplyMessageService messagesService;
     private final List<CallbackQueryHandler> callbackQueryHandlers;
 
-//    public CallbackQueryParser(ReplyMessageService messagesService,
-//                               List<CallbackQueryHandler> callbackQueryHandlers) {
-//        this.messagesService = messagesService;
-//        this.callbackQueryHandlers = callbackQueryHandlers;
-//    }
-
     public SendMessage processCallbackQuery(CallbackQuery usersQuery) {
+
         CallbackQueryType usersQueryType = CallbackQueryType.valueOf(usersQuery.getData().split("\\|")[0]);
 
         Optional<CallbackQueryHandler> queryHandler = callbackQueryHandlers.stream().

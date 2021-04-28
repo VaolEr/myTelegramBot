@@ -1,4 +1,4 @@
-package ru.VaolEr.myTelegramBot.service.bot;
+package ru.VaolEr.myTelegramBot.service.botapi;
 
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.objects.Update;
