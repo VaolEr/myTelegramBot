@@ -9,6 +9,12 @@ This is test telegram bot as a pet project
 ### App paths for interact with bots
 - `/api/v1/telegram-bots`/...
 
+### Telegram bot settings for test app:
+1. Using `ngrok` redirect Yours `localhost:your_port` to public `https:\\...`
+2. Setup bot's webhook using: 
+   * `https://api.telegram.org/bot[bot_token]/setWebhook?url=[ngrok_address]/api/v1/telegram-bots/yookassa-payment-bot`
+3. Check bot settings using: 
+   * `https://api.telegram.org/bot[bot_token]/getWebhookInfo`
 
 ### For correct work You need to create application-botsData.properties file with next fields:
 - echoBotToken = Your echo bot telegram token
